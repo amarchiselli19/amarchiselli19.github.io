@@ -22,12 +22,17 @@
 
     <!-- Custom styles for this template -->
     <link href="css/agency.min.css" rel="stylesheet">
+    
+    <style>
+      #mainNav{
+        background-color:#333333;
+      }
+    </style>
 
   </head>
 
   <body id="page-top">
-
-    <!-- Navigation -->
+  <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">Alex Marchiselli</a>
@@ -57,6 +62,7 @@
       </div>
     </nav>
 
+    
     <!-- Header -->
     <header class="masthead">
       <div class="container">
@@ -140,7 +146,7 @@
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fa fa-plus fa-3x"></i>
@@ -154,14 +160,18 @@
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2"> </a>
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               
               </div>
-            </div><!-- About -->
+            </div>
+            </section>
+            
+            
+            <!-- About -->
     <section id="about">
       <div class="container">
         <div class="row">
@@ -175,7 +185,7 @@
             <ul class="timeline">
               <li>
                 <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
+                  <img class="rounded-circle img-fluid" src="http://myhockeyrankings.com/uploads/logos/00017d_a.png" alt="">
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
@@ -188,7 +198,7 @@
               </li>
               <li class="timeline-inverted">
                 <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
+                  <img class="rounded-circle img-fluid" src="https://cdn.patch.com/users/54278/2011/04/T800x600/f5894c914f33ba449d661ae4bc6e2835.jpg" alt="">
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
@@ -202,7 +212,7 @@
               </li>
               <li>
                 <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
+                  <img class="rounded-circle img-fluid" src="data:image/jpeg;base64,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" alt="">
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
@@ -213,10 +223,7 @@
                     <p class="text-muted">Started playing the summer going into my freshman year.<br> Joined my high school varsity team Sophomore Year and played Junior year.</p>
                   </div>
                 </div>
-              </li>
-              <li class="timeline-inverted">
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
+              </li> 
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
@@ -240,41 +247,12 @@
       </div>
     </section>
 
-    <!-- Clients -->
-    <section class="py-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3 col-sm-6">
-            <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/envato.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/designmodo.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/themeforest.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/creative-market.jpg" alt="">
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <!-- Contact -->
     <section id="contact">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Contact Us</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <h1 class="section-heading text-uppercase">Contact</h1>
           </div>
         </div>
         <div class="row">
@@ -341,7 +319,8 @@
         <div class="modal-content">
           <div class="close-modal" data-dismiss="modal">
             <div class="lr">
-              <div class="rl"></div>
+              <div class="rl">
+              </div>
             </div>
           </div>
           <div class="container">
@@ -369,7 +348,8 @@
         <div class="modal-content">
           <div class="close-modal" data-dismiss="modal">
             <div class="lr">
-              <div class="rl"></div>
+              <div class="rl">
+              </div>
             </div>
           </div>
           <div class="container">
@@ -389,3 +369,6 @@
         </div>
       </div>
     </div>
+    
+    </body>
+    </html>
